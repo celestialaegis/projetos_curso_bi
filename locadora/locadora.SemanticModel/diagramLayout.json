@@ -1,0 +1,100 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 37.142857142857146
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 14
+          },
+          "nodeIndex": "tb_km",
+          "nodeLineageTag": "6f87ce0a-2f2b-4cf3-8a60-10fc828bede6",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 269.68041981893708,
+            "y": 14.542644684476056
+          },
+          "nodeIndex": "tb_cli",
+          "nodeLineageTag": "e797d480-6a96-4c99-95ed-0fb89b31a213",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 571.157457296527,
+            "y": 20.601691170673661
+          },
+          "nodeIndex": "MEDIDAS",
+          "nodeLineageTag": "a7124e9b-d8d9-4dff-8744-5a7a203c6221",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 273.42178125675156,
+            "y": 379.50138522766468
+          },
+          "nodeIndex": "INNER JOIN",
+          "nodeLineageTag": "d0e5ecdd-9170-42b8-831d-112a4d2aeaef",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 547.43490269812878,
+            "y": 377.00466558800895
+          },
+          "nodeIndex": "LEFT JOIN",
+          "nodeLineageTag": "cda0e7a2-635b-4440-b1c1-ed0f0a5f2575",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 381.99810486732036
+          },
+          "nodeIndex": "LEFT ANTI",
+          "nodeLineageTag": "6c7183b3-6d2c-4b06-bbad-5aea49b6a269",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 70,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}
