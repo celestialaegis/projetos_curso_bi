@@ -1,0 +1,126 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 292.29895699999656,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1115.7220131939075,
+            "y": 16.229217806375075
+          },
+          "nodeIndex": "CONSOLIDADA",
+          "nodeLineageTag": "a7a82016-b486-44db-9ece-c7f3f835a972",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 22.31343641725671
+          },
+          "nodeIndex": "META_2017",
+          "nodeLineageTag": "a4d0e125-84bc-4e39-a1d5-1c758a452ce0",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 278.09244430142104,
+            "y": 22.540325341901465
+          },
+          "nodeIndex": "META_2018",
+          "nodeLineageTag": "0e5893df-4fc8-4872-bdf2-fc81f5bd3102",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 553.68066677393426,
+            "y": 13.178991794033024
+          },
+          "nodeIndex": "META_2019",
+          "nodeLineageTag": "465107a6-f18a-4f0e-abb5-64874a9e36db",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 837.63866645213159,
+            "y": 17.85965856796723
+          },
+          "nodeIndex": "META_2020",
+          "nodeLineageTag": "6e828453-b632-4e24-b29c-9dd281f50fcd",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 1410,
+            "y": 72.321662107796115
+          },
+          "nodeIndex": "MEDIDAS",
+          "nodeLineageTag": "38d9e6b6-c6ac-4cd3-ae9a-42a6af9c1687",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 190.84240422736883,
+            "y": 418.61699646849337
+          },
+          "nodeIndex": "CALENDARIO",
+          "nodeLineageTag": "f5eff98b-3780-4cdd-9074-03e22bd2241e",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 1694,
+            "y": 255.11199960190788
+          },
+          "nodeIndex": "FORMAS PGTO",
+          "nodeLineageTag": "243f6564-322c-4bb5-b9fe-8af17af3d73f",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 56.4473930053776,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}
