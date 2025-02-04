@@ -1,0 +1,5688 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"f_BASE\",\"dim_cursos\",\"dim_exatas_humanas\",\"dim_campus\",\"dim_turno\",\"dim_situacao\",\"dim_forma_pgto\",\"dim_genero\",\"dim_pcd\",\"dim_estagio\",\"dim_diploma\",\"MEDIDAS\",\"MEDIDAS ALUNOS\",\"dim_alunos\",\"MEDIDAS FINANCEIRA\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.139.2054.0 (24.12)+334ca1c95b576cc53924655643b0d36f21caac55"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "pt-BR",
+    "cultures": [
+      {
+        "name": "pt-BR",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "dim_aluno": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_alunos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim aluno": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim_alunos": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dim_aluno.aluno": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_alunos",
+                    "ConceptualProperty": "Alunos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "aluno": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_aluno.dp": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_alunos",
+                    "ConceptualProperty": "DPS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dp": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_aluno.matricula": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_alunos",
+                    "ConceptualProperty": "Matricula"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "matricula": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_campus": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_campus"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim campus": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim_campus": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "dim property": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "dim estate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "dim site": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "dim_campus.campus": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_campus",
+                    "ConceptualProperty": "Campus"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "campus": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "property": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "estate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "site": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "dim_curso": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_cursos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim curso": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim_cursos": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dim_curso.curso": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_cursos",
+                    "ConceptualProperty": "Curso"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "curso": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_diploma": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_diploma"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim diploma": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim_diploma": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "diploma": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "dim qualification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "qualification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "dim certificate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "dim credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "certificate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "dim_diploma.pego_diploma": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_diploma",
+                    "ConceptualProperty": "PEGO DIPLOMA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "pego diploma": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "pego qualification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "pego certificate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "pego credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "dim_estagio": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_estagio"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim estagio": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim_estagio": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dim_estagio.estagio": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_estagio",
+                    "ConceptualProperty": "ESTAGIO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "estagio": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_exatas_humana": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_exatas_humanas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim exatas humana": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim exata humana": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "dim_exatas_humanas": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dim_exatas_humana.exatas_humana": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_exatas_humanas",
+                    "ConceptualProperty": "EXATAS HUMANAS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "exatas humana": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "exata humana": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  }
+                ]
+              },
+              "dim_forma_pgto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_forma_pgto"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim forma pgto": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim_forma_pgto": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dim_forma_pgto.forma_pgto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_forma_pgto",
+                    "ConceptualProperty": "FORMA PGTO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "forma pgto": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_genero": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_genero"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim genero": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim_genero": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dim_genero.genero": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_genero",
+                    "ConceptualProperty": "GENERO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "genero": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_pcd": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_pcd"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim pcd": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim_pcd": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dim_pcd.pcd": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_pcd",
+                    "ConceptualProperty": "PCD"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "pcd": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_situacao": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_situacao"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim situacao": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim_situacao": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dim_situacao.situação": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_situacao",
+                    "ConceptualProperty": "Situação"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "situação": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "dim_turno": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_turno"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dim turno": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dim_turno": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "dim_turno.turno": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_turno",
+                    "ConceptualProperty": "Turno"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "turno": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "f_BASE": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "f BASE": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "f_BASE": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "BASE": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "f headquarters": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "f center": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "f seat": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "f station": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "headquarters": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "center": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "seat": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "station": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "f pier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.451
+                    }
+                  }
+                ]
+              },
+              "f_BASE.aluno": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "Alunos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "aluno": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "f_BASE.ano": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "Ano"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ano": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "f_BASE.campus": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "Campus"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "campus": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "property": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "estate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "site": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "f_BASE.cpf": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "CPF"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "cpf": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "f_BASE.curso": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "Curso"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "curso": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "f_BASE.dp": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "DPS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dp": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "f_BASE.end": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "End"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "end": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "completion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "conclusion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "expiration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "close": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "finish": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "stop": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "closing": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "f_BASE.estagio": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "ESTAGIO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "estagio": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "f_BASE.exatas_humana": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "EXATAS HUMANAS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "exatas humana": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "exata humana": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "f_BASE.forma_pgto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "FORMA PGTO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "forma pgto": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "f_BASE.foto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "Foto"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "foto": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "f_BASE.genero": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "GENERO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "genero": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "f_BASE.icone_diploma": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "ICONE DIPLOMA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "icone diploma": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "icone qualification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "icone certificate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "icone credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "f_BASE.idade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "IDADE"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "idade": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "f_BASE.img__exata": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "IMG  EXATAS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "img  exata": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "img exata": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "f_BASE.matricula": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "Matricula"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "matricula": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "f_BASE.mensalidade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "Mensalidade"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mensalidade": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "f_BASE.nota_de_aprovação": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "Nota de Aprovação"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "nota de aprovação": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "notum de aprovação": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  }
+                ]
+              },
+              "f_BASE.pcd": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "PCD"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "pcd": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "f_BASE.pego_diploma": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "PEGO DIPLOMA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "pego diploma": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "pego qualification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "pego certificate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "pego credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "f_BASE.pegou_DP": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "Pegou DP"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "pegou DP": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "f_BASE.situação": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "Situação"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "situação": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "f_BASE.turno": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "f_BASE",
+                    "ConceptualProperty": "Turno"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "turno": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "medida": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "medida": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.POrC_TT": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS",
+                    "ConceptualProperty": "% POrC TT"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% POrC TT": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage porc tt": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "pct porc tt": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "medida.fat": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS",
+                    "ConceptualProperty": "FAT"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fat": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "overweight": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "plump": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "stout": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "heavy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "fatty": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "FATURAMENTO": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.fat_inadimplentes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS",
+                    "ConceptualProperty": "FAT_INADIMPLENTES"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fat inadimplentes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "FAT_INADIMPLENTES": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "INADIMPLENTES": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.fat_real": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS",
+                    "ConceptualProperty": "FAT REAL"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fat real": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "real": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "actual": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "physical": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "material": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "tangible": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "existent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "original": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "medida.media_de_idade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS",
+                    "ConceptualProperty": "MEDIA DE IDADE"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "media de idade": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.nao_pg": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS",
+                    "ConceptualProperty": "% NAO PG"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% nao pg": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage nao pg": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "pct nao pg": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "medida.pago": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS",
+                    "ConceptualProperty": "% PAGO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% pago": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage pago": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "pct pago": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "medida.total_inadimplentes": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS",
+                    "ConceptualProperty": "TOTAL INADIMPLENTES"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total inadimplentes": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "aggregate inadimplente": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "overall inadimplente": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "Alunos Devem": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.tt_matriculas": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS",
+                    "ConceptualProperty": "TT MATRICULAS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tt matriculas": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "TOTAL DE ALUNOS": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.tt_nao_pago": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS FINANCEIRA",
+                    "ConceptualProperty": "TT NAO PAGO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tt nao pago": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.tt_pago": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS",
+                    "ConceptualProperty": "TT PAGO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tt pago": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medidas_aluno": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS ALUNOS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "medidas aluno": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "medida aluno": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  }
+                ]
+              },
+              "medidas_aluno.aluno": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS ALUNOS",
+                    "ConceptualProperty": "ALUNO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "aluno": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medidas_aluno.campus": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS ALUNOS",
+                    "ConceptualProperty": "CAMPUS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "campus": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "property": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "estate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "site": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "medidas_aluno.cpf": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS ALUNOS",
+                    "ConceptualProperty": "CPF"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "cpf": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medidas_aluno.curso": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS ALUNOS",
+                    "ConceptualProperty": "CURSO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "curso": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medidas_aluno.dp": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS ALUNOS",
+                    "ConceptualProperty": "DP"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dp": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medidas_aluno.endereco": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS ALUNOS",
+                    "ConceptualProperty": "ENDERECO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "endereco": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medidas_aluno.idade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS ALUNOS",
+                    "ConceptualProperty": "IDADE"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "idade": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medidas_aluno.mensalidade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS ALUNOS",
+                    "ConceptualProperty": "MENSALIDADE"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mensalidade": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medidas_aluno.ra": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS ALUNOS",
+                    "ConceptualProperty": "RA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ra": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medidas_aluno.sexo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS ALUNOS",
+                    "ConceptualProperty": "SEXO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sexo": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medidas_aluno.turno": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS ALUNOS",
+                    "ConceptualProperty": "TURNO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "turno": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medidas_financeira": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS FINANCEIRA"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "medidas financeira": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "medida financeira": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  }
+                ]
+              },
+              "medidas_financeira.intermediario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS FINANCEIRA",
+                    "ConceptualProperty": "INTERMEDIARIO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "intermediario": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medidas_financeira.limite": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS FINANCEIRA",
+                    "ConceptualProperty": "LIMITE"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "limite": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medidas_financeira.minimo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS FINANCEIRA",
+                    "ConceptualProperty": "MINIMO"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "minimo": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medidas_financeira.ticket_medio": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS FINANCEIRA",
+                    "ConceptualProperty": "ticket medio"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ticket medio": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medidas_financeira.tt_matri_limite": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "MEDIDAS FINANCEIRA",
+                    "ConceptualProperty": "TT MATRI LIMITE"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tt matri limite": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "dim_aluno_has_aluno": {
+                "Binding": {
+                  "ConceptualEntity": "dim_alunos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_aluno.aluno"
+                      },
+                      "Subject": {
+                        "Role": "dim_aluno"
+                      }
+                    },
+                    "ID": "dim_alunos_have_alunos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_aluno": {
+                    "Target": {
+                      "Entity": "dim_aluno"
+                    }
+                  },
+                  "dim_aluno.aluno": {
+                    "Target": {
+                      "Entity": "dim_aluno.aluno"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_aluno_has_dp": {
+                "Binding": {
+                  "ConceptualEntity": "dim_alunos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_aluno.dp"
+                      },
+                      "Subject": {
+                        "Role": "dim_aluno"
+                      }
+                    },
+                    "ID": "dim_alunos_have_dp",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_aluno": {
+                    "Target": {
+                      "Entity": "dim_aluno"
+                    }
+                  },
+                  "dim_aluno.dp": {
+                    "Target": {
+                      "Entity": "dim_aluno.dp"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_aluno_has_matricula": {
+                "Binding": {
+                  "ConceptualEntity": "dim_alunos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_aluno.matricula"
+                      },
+                      "Subject": {
+                        "Role": "dim_aluno"
+                      }
+                    },
+                    "ID": "dim_alunos_have_matriculas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_aluno": {
+                    "Target": {
+                      "Entity": "dim_aluno"
+                    }
+                  },
+                  "dim_aluno.matricula": {
+                    "Target": {
+                      "Entity": "dim_aluno.matricula"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_campus_has_campus": {
+                "Binding": {
+                  "ConceptualEntity": "dim_campus"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_campus.campus"
+                      },
+                      "Subject": {
+                        "Role": "dim_campus"
+                      }
+                    },
+                    "ID": "dim_campuses_have_campuses",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_campus": {
+                    "Target": {
+                      "Entity": "dim_campus"
+                    }
+                  },
+                  "dim_campus.campus": {
+                    "Target": {
+                      "Entity": "dim_campus.campus"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_curso_has_curso": {
+                "Binding": {
+                  "ConceptualEntity": "dim_cursos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_curso.curso"
+                      },
+                      "Subject": {
+                        "Role": "dim_curso"
+                      }
+                    },
+                    "ID": "dim_cursos_have_cursos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_curso": {
+                    "Target": {
+                      "Entity": "dim_curso"
+                    }
+                  },
+                  "dim_curso.curso": {
+                    "Target": {
+                      "Entity": "dim_curso.curso"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_diploma_has_pego_diploma": {
+                "Binding": {
+                  "ConceptualEntity": "dim_diploma"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_diploma.pego_diploma"
+                      },
+                      "Subject": {
+                        "Role": "dim_diploma"
+                      }
+                    },
+                    "ID": "dim_diplomas_have_pego_diplomas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_diploma": {
+                    "Target": {
+                      "Entity": "dim_diploma"
+                    }
+                  },
+                  "dim_diploma.pego_diploma": {
+                    "Target": {
+                      "Entity": "dim_diploma.pego_diploma"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_estagio_has_estagio": {
+                "Binding": {
+                  "ConceptualEntity": "dim_estagio"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_estagio.estagio"
+                      },
+                      "Subject": {
+                        "Role": "dim_estagio"
+                      }
+                    },
+                    "ID": "dim_estagios_have_estagios",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_estagio": {
+                    "Target": {
+                      "Entity": "dim_estagio"
+                    }
+                  },
+                  "dim_estagio.estagio": {
+                    "Target": {
+                      "Entity": "dim_estagio.estagio"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_exatas_humana_has_exatas_humana": {
+                "Binding": {
+                  "ConceptualEntity": "dim_exatas_humanas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_exatas_humana.exatas_humana"
+                      },
+                      "Subject": {
+                        "Role": "dim_exatas_humana"
+                      }
+                    },
+                    "ID": "dim_exatas_humana_have_exatas_humana",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_exatas_humana": {
+                    "Target": {
+                      "Entity": "dim_exatas_humana"
+                    }
+                  },
+                  "dim_exatas_humana.exatas_humana": {
+                    "Target": {
+                      "Entity": "dim_exatas_humana.exatas_humana"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_forma_pgto_has_forma_pgto": {
+                "Binding": {
+                  "ConceptualEntity": "dim_forma_pgto"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_forma_pgto.forma_pgto"
+                      },
+                      "Subject": {
+                        "Role": "dim_forma_pgto"
+                      }
+                    },
+                    "ID": "dim_forma_pgtos_have_forma_pgtos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_forma_pgto": {
+                    "Target": {
+                      "Entity": "dim_forma_pgto"
+                    }
+                  },
+                  "dim_forma_pgto.forma_pgto": {
+                    "Target": {
+                      "Entity": "dim_forma_pgto.forma_pgto"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_genero_has_genero": {
+                "Binding": {
+                  "ConceptualEntity": "dim_genero"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_genero.genero"
+                      },
+                      "Subject": {
+                        "Role": "dim_genero"
+                      }
+                    },
+                    "ID": "dim_generos_have_generos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_genero": {
+                    "Target": {
+                      "Entity": "dim_genero"
+                    }
+                  },
+                  "dim_genero.genero": {
+                    "Target": {
+                      "Entity": "dim_genero.genero"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_pcd_has_pcd": {
+                "Binding": {
+                  "ConceptualEntity": "dim_pcd"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_pcd.pcd"
+                      },
+                      "Subject": {
+                        "Role": "dim_pcd"
+                      }
+                    },
+                    "ID": "dim_pcds_have_pcds",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_pcd": {
+                    "Target": {
+                      "Entity": "dim_pcd"
+                    }
+                  },
+                  "dim_pcd.pcd": {
+                    "Target": {
+                      "Entity": "dim_pcd.pcd"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_situacao_has_situação": {
+                "Binding": {
+                  "ConceptualEntity": "dim_situacao"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_situacao.situação"
+                      },
+                      "Subject": {
+                        "Role": "dim_situacao"
+                      }
+                    },
+                    "ID": "dim_situacaos_have_situaçãos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_situacao": {
+                    "Target": {
+                      "Entity": "dim_situacao"
+                    }
+                  },
+                  "dim_situacao.situação": {
+                    "Target": {
+                      "Entity": "dim_situacao.situação"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "dim_turno_has_turno": {
+                "Binding": {
+                  "ConceptualEntity": "dim_turno"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_turno.turno"
+                      },
+                      "Subject": {
+                        "Role": "dim_turno"
+                      }
+                    },
+                    "ID": "dim_turnos_have_turnos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_turno": {
+                    "Target": {
+                      "Entity": "dim_turno"
+                    }
+                  },
+                  "dim_turno.turno": {
+                    "Target": {
+                      "Entity": "dim_turno.turno"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_aluno": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE.aluno"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_alunos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "f_BASE.aluno": {
+                    "Target": {
+                      "Entity": "f_BASE.aluno"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_ano": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE.ano"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_anos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "f_BASE.ano": {
+                    "Target": {
+                      "Entity": "f_BASE.ano"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_cpf": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE.cpf"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_cpfs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "f_BASE.cpf": {
+                    "Target": {
+                      "Entity": "f_BASE.cpf"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_dim_aluno": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_aluno"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_dim_alunos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE"
+                      },
+                      "Subject": {
+                        "Role": "dim_aluno"
+                      }
+                    },
+                    "ID": "dim_alunos_have_f_BASEs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_aluno": {
+                    "Target": {
+                      "Entity": "dim_aluno"
+                    }
+                  },
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_dim_campus": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_campus"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_dim_campuses",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE"
+                      },
+                      "Subject": {
+                        "Role": "dim_campus"
+                      }
+                    },
+                    "ID": "dim_campuses_have_f_BASEs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_campus": {
+                    "Nouns": [
+                      {
+                        "campus": {
+                          "State": "Generated"
+                        }
+                      }
+                    ],
+                    "Target": {
+                      "Entity": "dim_campus"
+                    }
+                  },
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_dim_curso": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_curso"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_dim_cursos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE"
+                      },
+                      "Subject": {
+                        "Role": "dim_curso"
+                      }
+                    },
+                    "ID": "dim_cursos_have_f_BASEs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_curso": {
+                    "Target": {
+                      "Entity": "dim_curso"
+                    }
+                  },
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_dim_diploma": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_diploma"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_dim_diplomas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE"
+                      },
+                      "Subject": {
+                        "Role": "dim_diploma"
+                      }
+                    },
+                    "ID": "dim_diplomas_have_f_BASEs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_diploma": {
+                    "Target": {
+                      "Entity": "dim_diploma"
+                    }
+                  },
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_dim_estagio": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_estagio"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_dim_estagios",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE"
+                      },
+                      "Subject": {
+                        "Role": "dim_estagio"
+                      }
+                    },
+                    "ID": "dim_estagios_have_f_BASEs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_estagio": {
+                    "Target": {
+                      "Entity": "dim_estagio"
+                    }
+                  },
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_dim_exatas_humana": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_exatas_humana"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_dim_exatas_humana",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE"
+                      },
+                      "Subject": {
+                        "Role": "dim_exatas_humana"
+                      }
+                    },
+                    "ID": "dim_exatas_humana_have_f_BASEs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_exatas_humana": {
+                    "Nouns": [
+                      {
+                        "exatas humana": {
+                          "State": "Generated"
+                        }
+                      }
+                    ],
+                    "Target": {
+                      "Entity": "dim_exatas_humana"
+                    }
+                  },
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_dim_forma_pgto": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_forma_pgto"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_dim_forma_pgtos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE"
+                      },
+                      "Subject": {
+                        "Role": "dim_forma_pgto"
+                      }
+                    },
+                    "ID": "dim_forma_pgtos_have_f_BASEs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_forma_pgto": {
+                    "Target": {
+                      "Entity": "dim_forma_pgto"
+                    }
+                  },
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_dim_genero": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_genero"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_dim_generos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE"
+                      },
+                      "Subject": {
+                        "Role": "dim_genero"
+                      }
+                    },
+                    "ID": "dim_generos_have_f_BASEs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_genero": {
+                    "Target": {
+                      "Entity": "dim_genero"
+                    }
+                  },
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_dim_pcd": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_pcd"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_dim_pcds",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE"
+                      },
+                      "Subject": {
+                        "Role": "dim_pcd"
+                      }
+                    },
+                    "ID": "dim_pcds_have_f_BASEs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_pcd": {
+                    "Target": {
+                      "Entity": "dim_pcd"
+                    }
+                  },
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_dim_situacao": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_situacao"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_dim_situacaos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE"
+                      },
+                      "Subject": {
+                        "Role": "dim_situacao"
+                      }
+                    },
+                    "ID": "dim_situacaos_have_f_BASEs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_situacao": {
+                    "Target": {
+                      "Entity": "dim_situacao"
+                    }
+                  },
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_dim_turno": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "dim_turno"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_dim_turnos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE"
+                      },
+                      "Subject": {
+                        "Role": "dim_turno"
+                      }
+                    },
+                    "ID": "dim_turnos_have_f_BASEs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "dim_turno": {
+                    "Target": {
+                      "Entity": "dim_turno"
+                    }
+                  },
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_dp": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE.dp"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_dp",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "f_BASE.dp": {
+                    "Target": {
+                      "Entity": "f_BASE.dp"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_end": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE.end"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_ends",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "f_BASE.end": {
+                    "Target": {
+                      "Entity": "f_BASE.end"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_foto": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE.foto"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_fotos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "f_BASE.foto": {
+                    "Target": {
+                      "Entity": "f_BASE.foto"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_icone_diploma": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE.icone_diploma"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_icone_diplomas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "f_BASE.icone_diploma": {
+                    "Target": {
+                      "Entity": "f_BASE.icone_diploma"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_idade": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE.idade"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_idades",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "f_BASE.idade": {
+                    "Target": {
+                      "Entity": "f_BASE.idade"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_img__exata": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE.img__exata"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_img__exatas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "f_BASE.img__exata": {
+                    "Target": {
+                      "Entity": "f_BASE.img__exata"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_medida_POrC_TT": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.POrC_TT"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have__POrC_TT",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "medida.POrC_TT": {
+                    "Target": {
+                      "Entity": "medida.POrC_TT"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_medida_fat": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.fat"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_fat",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "medida.fat": {
+                    "Target": {
+                      "Entity": "medida.fat"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_medida_fat_inadimplentes": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.fat_inadimplentes"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_fat_inadimplentes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "medida.fat_inadimplentes": {
+                    "Target": {
+                      "Entity": "medida.fat_inadimplentes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_medida_fat_real": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.fat_real"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_fat_real",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "medida.fat_real": {
+                    "Target": {
+                      "Entity": "medida.fat_real"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_medida_media_de_idade": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.media_de_idade"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_media_de_idade",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "medida.media_de_idade": {
+                    "Target": {
+                      "Entity": "medida.media_de_idade"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_medida_nao_pg": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.nao_pg"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have__nao_pg",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "medida.nao_pg": {
+                    "Target": {
+                      "Entity": "medida.nao_pg"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_medida_pago": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.pago"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have__pago",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "medida.pago": {
+                    "Target": {
+                      "Entity": "medida.pago"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_medida_total_inadimplentes": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.total_inadimplentes"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_total_inadimplentes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "medida.total_inadimplentes": {
+                    "Target": {
+                      "Entity": "medida.total_inadimplentes"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_medida_tt_matriculas": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.tt_matriculas"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_tt_matriculas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "medida.tt_matriculas": {
+                    "Target": {
+                      "Entity": "medida.tt_matriculas"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_medida_tt_nao_pago": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.tt_nao_pago"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_tt_nao_pago",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "medida.tt_nao_pago": {
+                    "Target": {
+                      "Entity": "medida.tt_nao_pago"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_medida_tt_pago": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.tt_pago"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_tt_pago",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "medida.tt_pago": {
+                    "Target": {
+                      "Entity": "medida.tt_pago"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_medidas_financeira_intermediario": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medidas_financeira.intermediario"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_intermediario",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "medidas_financeira.intermediario": {
+                    "Target": {
+                      "Entity": "medidas_financeira.intermediario"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_medidas_financeira_limite": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medidas_financeira.limite"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_limite",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "medidas_financeira.limite": {
+                    "Target": {
+                      "Entity": "medidas_financeira.limite"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_medidas_financeira_ticket_medio": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medidas_financeira.ticket_medio"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_ticket_medio",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "medidas_financeira.ticket_medio": {
+                    "Target": {
+                      "Entity": "medidas_financeira.ticket_medio"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_medidas_financeira_tt_matri_limite": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medidas_financeira.tt_matri_limite"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_tt_matri_limite",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "medidas_financeira.tt_matri_limite": {
+                    "Target": {
+                      "Entity": "medidas_financeira.tt_matri_limite"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_mensalidade": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE.mensalidade"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_mensalidades",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "f_BASE.mensalidade": {
+                    "Target": {
+                      "Entity": "f_BASE.mensalidade"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_nota_de_aprovação": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE.nota_de_aprovação"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_nota_de_aprovaçãos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "f_BASE.nota_de_aprovação": {
+                    "Target": {
+                      "Entity": "f_BASE.nota_de_aprovação"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "f_BASE_has_pegou_DP": {
+                "Binding": {
+                  "ConceptualEntity": "f_BASE"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "f_BASE.pegou_DP"
+                      },
+                      "Subject": {
+                        "Role": "f_BASE"
+                      }
+                    },
+                    "ID": "f_BASEs_have_pegou_DP",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "f_BASE": {
+                    "Target": {
+                      "Entity": "f_BASE"
+                    }
+                  },
+                  "f_BASE.pegou_DP": {
+                    "Target": {
+                      "Entity": "f_BASE.pegou_DP"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medidas_aluno_has_aluno": {
+                "Binding": {
+                  "ConceptualEntity": "MEDIDAS ALUNOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medidas_aluno.aluno"
+                      },
+                      "Subject": {
+                        "Role": "medidas_aluno"
+                      }
+                    },
+                    "ID": "medidas_alunos_have_aluno",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medidas_aluno": {
+                    "Target": {
+                      "Entity": "medidas_aluno"
+                    }
+                  },
+                  "medidas_aluno.aluno": {
+                    "Target": {
+                      "Entity": "medidas_aluno.aluno"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medidas_aluno_has_campus": {
+                "Binding": {
+                  "ConceptualEntity": "MEDIDAS ALUNOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medidas_aluno.campus"
+                      },
+                      "Subject": {
+                        "Role": "medidas_aluno"
+                      }
+                    },
+                    "ID": "medidas_alunos_have_campus",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medidas_aluno": {
+                    "Target": {
+                      "Entity": "medidas_aluno"
+                    }
+                  },
+                  "medidas_aluno.campus": {
+                    "Target": {
+                      "Entity": "medidas_aluno.campus"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medidas_aluno_has_cpf": {
+                "Binding": {
+                  "ConceptualEntity": "MEDIDAS ALUNOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medidas_aluno.cpf"
+                      },
+                      "Subject": {
+                        "Role": "medidas_aluno"
+                      }
+                    },
+                    "ID": "medidas_alunos_have_cpf",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medidas_aluno": {
+                    "Target": {
+                      "Entity": "medidas_aluno"
+                    }
+                  },
+                  "medidas_aluno.cpf": {
+                    "Target": {
+                      "Entity": "medidas_aluno.cpf"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medidas_aluno_has_curso": {
+                "Binding": {
+                  "ConceptualEntity": "MEDIDAS ALUNOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medidas_aluno.curso"
+                      },
+                      "Subject": {
+                        "Role": "medidas_aluno"
+                      }
+                    },
+                    "ID": "medidas_alunos_have_curso",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medidas_aluno": {
+                    "Target": {
+                      "Entity": "medidas_aluno"
+                    }
+                  },
+                  "medidas_aluno.curso": {
+                    "Target": {
+                      "Entity": "medidas_aluno.curso"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medidas_aluno_has_dp": {
+                "Binding": {
+                  "ConceptualEntity": "MEDIDAS ALUNOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medidas_aluno.dp"
+                      },
+                      "Subject": {
+                        "Role": "medidas_aluno"
+                      }
+                    },
+                    "ID": "medidas_alunos_have_dp",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medidas_aluno": {
+                    "Target": {
+                      "Entity": "medidas_aluno"
+                    }
+                  },
+                  "medidas_aluno.dp": {
+                    "Target": {
+                      "Entity": "medidas_aluno.dp"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medidas_aluno_has_endereco": {
+                "Binding": {
+                  "ConceptualEntity": "MEDIDAS ALUNOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medidas_aluno.endereco"
+                      },
+                      "Subject": {
+                        "Role": "medidas_aluno"
+                      }
+                    },
+                    "ID": "medidas_alunos_have_endereco",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medidas_aluno": {
+                    "Target": {
+                      "Entity": "medidas_aluno"
+                    }
+                  },
+                  "medidas_aluno.endereco": {
+                    "Target": {
+                      "Entity": "medidas_aluno.endereco"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medidas_aluno_has_idade": {
+                "Binding": {
+                  "ConceptualEntity": "MEDIDAS ALUNOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medidas_aluno.idade"
+                      },
+                      "Subject": {
+                        "Role": "medidas_aluno"
+                      }
+                    },
+                    "ID": "medidas_alunos_have_idade",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medidas_aluno": {
+                    "Target": {
+                      "Entity": "medidas_aluno"
+                    }
+                  },
+                  "medidas_aluno.idade": {
+                    "Target": {
+                      "Entity": "medidas_aluno.idade"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medidas_aluno_has_mensalidade": {
+                "Binding": {
+                  "ConceptualEntity": "MEDIDAS ALUNOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medidas_aluno.mensalidade"
+                      },
+                      "Subject": {
+                        "Role": "medidas_aluno"
+                      }
+                    },
+                    "ID": "medidas_alunos_have_mensalidade",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medidas_aluno": {
+                    "Target": {
+                      "Entity": "medidas_aluno"
+                    }
+                  },
+                  "medidas_aluno.mensalidade": {
+                    "Target": {
+                      "Entity": "medidas_aluno.mensalidade"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medidas_aluno_has_ra": {
+                "Binding": {
+                  "ConceptualEntity": "MEDIDAS ALUNOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medidas_aluno.ra"
+                      },
+                      "Subject": {
+                        "Role": "medidas_aluno"
+                      }
+                    },
+                    "ID": "medidas_alunos_have_ra",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medidas_aluno": {
+                    "Target": {
+                      "Entity": "medidas_aluno"
+                    }
+                  },
+                  "medidas_aluno.ra": {
+                    "Target": {
+                      "Entity": "medidas_aluno.ra"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medidas_aluno_has_sexo": {
+                "Binding": {
+                  "ConceptualEntity": "MEDIDAS ALUNOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medidas_aluno.sexo"
+                      },
+                      "Subject": {
+                        "Role": "medidas_aluno"
+                      }
+                    },
+                    "ID": "medidas_alunos_have_sexo",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medidas_aluno": {
+                    "Target": {
+                      "Entity": "medidas_aluno"
+                    }
+                  },
+                  "medidas_aluno.sexo": {
+                    "Target": {
+                      "Entity": "medidas_aluno.sexo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medidas_aluno_has_turno": {
+                "Binding": {
+                  "ConceptualEntity": "MEDIDAS ALUNOS"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medidas_aluno.turno"
+                      },
+                      "Subject": {
+                        "Role": "medidas_aluno"
+                      }
+                    },
+                    "ID": "medidas_alunos_have_turno",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medidas_aluno": {
+                    "Target": {
+                      "Entity": "medidas_aluno"
+                    }
+                  },
+                  "medidas_aluno.turno": {
+                    "Target": {
+                      "Entity": "medidas_aluno.turno"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medidas_financeira_has_minimo": {
+                "Binding": {
+                  "ConceptualEntity": "MEDIDAS FINANCEIRA"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medidas_financeira.minimo"
+                      },
+                      "Subject": {
+                        "Role": "medidas_financeira"
+                      }
+                    },
+                    "ID": "medidas_financeiras_have_minimo",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medidas_financeira": {
+                    "Target": {
+                      "Entity": "medidas_financeira"
+                    }
+                  },
+                  "medidas_financeira.minimo": {
+                    "Target": {
+                      "Entity": "medidas_financeira.minimo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "AutoDetected_6be0b699-7e6d-4746-859a-18a2ad19ae31",
+        "fromColumn": "Curso",
+        "fromTable": "f_BASE",
+        "toColumn": "Curso",
+        "toTable": "dim_cursos"
+      },
+      {
+        "name": "AutoDetected_239122ed-5c5f-45db-aa22-1c7bb1821e9e",
+        "fromColumn": "EXATAS HUMANAS",
+        "fromTable": "f_BASE",
+        "toColumn": "EXATAS HUMANAS",
+        "toTable": "dim_exatas_humanas"
+      },
+      {
+        "name": "AutoDetected_bfd56f3a-8f3e-4623-91fe-d25d73a9fcc8",
+        "fromColumn": "Campus",
+        "fromTable": "f_BASE",
+        "toColumn": "Campus",
+        "toTable": "dim_campus"
+      },
+      {
+        "name": "AutoDetected_c24ae75f-2353-4d25-bb44-6fb95ba0f590",
+        "fromColumn": "Turno",
+        "fromTable": "f_BASE",
+        "toColumn": "Turno",
+        "toTable": "dim_turno"
+      },
+      {
+        "name": "AutoDetected_8de7ae1e-a996-4070-9393-5fd1cbf3a2d0",
+        "fromColumn": "Situação",
+        "fromTable": "f_BASE",
+        "toColumn": "Situação",
+        "toTable": "dim_situacao"
+      },
+      {
+        "name": "AutoDetected_40ff28bd-15db-4bd3-8b5d-153abfa29cf5",
+        "fromColumn": "FORMA PGTO",
+        "fromTable": "f_BASE",
+        "toColumn": "FORMA PGTO",
+        "toTable": "dim_forma_pgto"
+      },
+      {
+        "name": "AutoDetected_6cb31d6d-5d8c-4fed-8006-1c982ce8d241",
+        "fromColumn": "GENERO",
+        "fromTable": "f_BASE",
+        "toColumn": "GENERO",
+        "toTable": "dim_genero"
+      },
+      {
+        "name": "AutoDetected_0a24e3ff-6d62-481f-88b4-4733adebcbe4",
+        "fromColumn": "PCD",
+        "fromTable": "f_BASE",
+        "toColumn": "PCD",
+        "toTable": "dim_pcd"
+      },
+      {
+        "name": "AutoDetected_c58a031a-7bf4-49b7-a88c-c15526fe3251",
+        "fromColumn": "ESTAGIO",
+        "fromTable": "f_BASE",
+        "toColumn": "ESTAGIO",
+        "toTable": "dim_estagio"
+      },
+      {
+        "name": "AutoDetected_7361bcb2-5947-446a-9b66-a104e1f52b31",
+        "fromColumn": "PEGO DIPLOMA",
+        "fromTable": "f_BASE",
+        "toColumn": "PEGO DIPLOMA",
+        "toTable": "dim_diploma"
+      },
+      {
+        "name": "238d4be8-28ce-f010-de2c-a5cbc9104524",
+        "fromColumn": "Matricula",
+        "fromTable": "f_BASE",
+        "toColumn": "Matricula",
+        "toTable": "dim_alunos"
+      }
+    ],
+    "sourceQueryCulture": "pt-BR",
+    "tables": [
+      {
+        "name": "f_BASE",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Alunos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "05fec580-f297-4d9c-8dcd-17f408fd0b59",
+            "sourceColumn": "Alunos",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Matricula",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "691d04ae-40a9-4298-a09a-74ebea344aca",
+            "sourceColumn": "Matricula",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "End",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bb5d9062-ec76-487e-9e34-3a8fd1677ad5",
+            "sourceColumn": "End",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Foto",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cf35fa6b-8706-406f-88d7-b89b67694c58",
+            "sourceColumn": "Foto",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CPF",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c7ba7a7a-e6e3-4ad6-ae7d-6441e087dfbe",
+            "sourceColumn": "CPF",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Curso",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a28b52ba-b0c2-48f2-bd14-4b72e3ea2407",
+            "sourceColumn": "Curso",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "EXATAS HUMANAS",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "60696d24-2488-456e-ad82-cab046352608",
+            "sourceColumn": "EXATAS HUMANAS",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IMG  EXATAS",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ca448a04-e065-4031-b8ef-8fb4e5af4898",
+            "sourceColumn": "IMG  EXATAS",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Nota de Aprovação",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c8cf02b7-446d-4fc1-b243-75303f6d99ff",
+            "sourceColumn": "Nota de Aprovação",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Campus",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d4a1b0b2-c810-42a3-8b2c-12b562439654",
+            "sourceColumn": "Campus",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Turno",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "adb05436-bce3-4a58-827e-4affcb9a1f79",
+            "sourceColumn": "Turno",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Mensalidade",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "0",
+            "lineageTag": "b4c58afc-9e16-47c5-96f9-bb7b799b02cb",
+            "sourceColumn": "Mensalidade",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "decf9a67-9918-4726-acbf-f05aa131b710",
+            "sourceColumn": "Ano",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Situação",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "14363648-94e6-47d2-9be2-d5ce32c0cffe",
+            "sourceColumn": "Situação",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "FORMA PGTO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d8cd60a4-f769-43f4-9b05-ab02fff434ec",
+            "sourceColumn": "FORMA PGTO",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "GENERO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9b6d446e-d15d-4e55-ba15-93d5262bf08a",
+            "sourceColumn": "GENERO",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "IDADE",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b5d983ab-1ffe-42a1-a0f4-ceafde7715f5",
+            "sourceColumn": "IDADE",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Pegou DP",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "127eb38e-1e71-4e48-b0e2-aab7ddde5e84",
+            "sourceColumn": "Pegou DP",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PCD",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "862ea9a5-7f0f-4e65-b85d-f6057b85d5f5",
+            "sourceColumn": "PCD",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ESTAGIO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5c45cc6d-8088-4a0b-8fec-4cd2af3421de",
+            "sourceColumn": "ESTAGIO",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DPS",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ece62226-cb40-488d-8d14-dc525c21678a",
+            "sourceColumn": "DPS",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PEGO DIPLOMA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5ad9082a-8b9c-4457-a17b-e07de2b82c37",
+            "sourceColumn": "PEGO DIPLOMA",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ICONE DIPLOMA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "",
+              "",
+              "IF(f_BASE[PEGO DIPLOMA] = \"PEGOU DIPLOMA\", \"https://e7.pngegg.com/pngimages/599/892/png-clipart-x-mark-computer-icons-sign-others-miscellaneous-logo-thumbnail.png\",",
+              "                            \"https://w7.pngwing.com/pngs/595/505/png-transparent-computer-icons-error-closeup-miscellaneous-text-logo-thumbnail.png\"",
+              "",
+              "",
+              ")"
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "68be5c88-7eb7-43c6-bc2c-a175e684d4cc",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "3b6215b9-b879-4011-a6bb-a24dac69086d",
+        "partitions": [
+          {
+            "name": "f_BASE",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Excel.Workbook(File.Contents(\"C:\\Users\\Anderson\\OneDrive\\Área de Trabalho\\rapha\\materiais_bi\\modulo 4\\Universidade_YTO.xlsx\"), null, true),",
+                "    Tabela13_Table = Fonte{[Item=\"Tabela13\",Kind=\"Table\"]}[Data],",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Tabela13_Table,{{\"Matricula\", type text}, {\"Alunos\", type text}, {\"End\", type text}, {\"Foto\", type text}, {\"Curso\", type text}, {\"EXATAS HUMANAS\", type text}, {\"CPF\", type text}, {\"IMG  EXATAS\", type text}, {\"Campus\", type text}, {\"Turno\", type text}, {\"Situação\", type text}, {\"FORMA PGTO\", type text}, {\"GENERO\", type text}, {\"Pegou DP\", type text}, {\"PCD\", type text}, {\"ESTAGIO\", type text}, {\"DPS\", type text}, {\"IDADE\", Int64.Type}, {\"Ano\", type text}, {\"Mensalidade\", type number}, {\"Nota de Aprovação\", type text}}),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Tipo Alterado\",{{\"PEGO DIPLOMA\", \"PEGO DIPLOMA\"}}),",
+                "    #\"Valor Substituído\" = Table.ReplaceValue(#\"Colunas Renomeadas\",\"CIENCIAS UHMANAS\",\"CIENCIAS HUMANAS\",Replacer.ReplaceText,{\"EXATAS HUMANAS\"})",
+                "in",
+                "    #\"Valor Substituído\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_cursos",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Curso",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "907d4f10-d443-4e7b-aa89-b65374c8c473",
+            "sourceColumn": "Curso",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "57f48aba-ea03-49ea-9422-21e0043c0bab",
+        "partitions": [
+          {
+            "name": "dim_cursos",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = f_BASE,",
+                "    #\"Outras Colunas Removidas\" = Table.SelectColumns(Fonte,{\"Curso\"}),",
+                "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Outras Colunas Removidas\")",
+                "in",
+                "    #\"Duplicatas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_exatas_humanas",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "EXATAS HUMANAS",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e14fbdf4-a281-4709-9284-1aca85c16c17",
+            "sourceColumn": "EXATAS HUMANAS",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "d217a2c1-c271-461b-a775-7191ca3252c0",
+        "partitions": [
+          {
+            "name": "dim_exatas_humanas",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = f_BASE,",
+                "    #\"Outras Colunas Removidas\" = Table.SelectColumns(Fonte,{\"EXATAS HUMANAS\"}),",
+                "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Outras Colunas Removidas\")",
+                "in",
+                "    #\"Duplicatas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_campus",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Campus",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "09d94b44-66b5-4038-9672-ee26e5fc3f0d",
+            "sourceColumn": "Campus",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "8bb0e7e1-23c9-4aa1-a4c0-8b56e9bc97d3",
+        "partitions": [
+          {
+            "name": "dim_campus",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = f_BASE,",
+                "    #\"Outras Colunas Removidas\" = Table.SelectColumns(Fonte,{\"Campus\"}),",
+                "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Outras Colunas Removidas\")",
+                "in",
+                "    #\"Duplicatas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_turno",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Turno",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d1e30d50-f0bb-4abe-a8c2-ac73e407660e",
+            "sourceColumn": "Turno",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "2158f22d-a57a-435a-8857-d1aff83b9dec",
+        "partitions": [
+          {
+            "name": "dim_turno",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = f_BASE,",
+                "    #\"Outras Colunas Removidas\" = Table.SelectColumns(Fonte,{\"Turno\"}),",
+                "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Outras Colunas Removidas\")",
+                "in",
+                "    #\"Duplicatas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_situacao",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Situação",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0afa2257-1dce-4e99-acd8-a6e4c7c31a1e",
+            "sourceColumn": "Situação",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "320779e4-1f8b-40d2-9ff5-aa0a771c0195",
+        "partitions": [
+          {
+            "name": "dim_situacao",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = f_BASE,",
+                "    #\"Outras Colunas Removidas\" = Table.SelectColumns(Fonte,{\"Situação\"}),",
+                "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Outras Colunas Removidas\")",
+                "in",
+                "    #\"Duplicatas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_forma_pgto",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "FORMA PGTO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e88cd908-faeb-4166-b204-731e6ad6c026",
+            "sourceColumn": "FORMA PGTO",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "d02d7300-98c4-400c-ab48-2b986b5e2905",
+        "partitions": [
+          {
+            "name": "dim_forma_pgto",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = f_BASE,",
+                "    #\"Outras Colunas Removidas\" = Table.SelectColumns(Fonte,{\"FORMA PGTO\"}),",
+                "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Outras Colunas Removidas\")",
+                "in",
+                "    #\"Duplicatas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_genero",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "GENERO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a5d6ee06-5026-4c89-b27c-81c7632808af",
+            "sourceColumn": "GENERO",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "59d4c8d2-9359-4e51-bebb-f37d5bdea5fb",
+        "partitions": [
+          {
+            "name": "dim_genero",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = f_BASE,",
+                "    #\"Outras Colunas Removidas\" = Table.SelectColumns(Fonte,{\"GENERO\"}),",
+                "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Outras Colunas Removidas\")",
+                "in",
+                "    #\"Duplicatas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_pcd",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "PCD",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2aaa986e-c679-4474-b173-b2d62836809e",
+            "sourceColumn": "PCD",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "680ab361-041e-41ca-996a-6d09bf559be5",
+        "partitions": [
+          {
+            "name": "dim_pcd",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = f_BASE,",
+                "    #\"Outras Colunas Removidas\" = Table.SelectColumns(Fonte,{\"PCD\"}),",
+                "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Outras Colunas Removidas\")",
+                "in",
+                "    #\"Duplicatas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_estagio",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "ESTAGIO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "08b16090-fe3e-49a7-a8e1-3df72d896756",
+            "sourceColumn": "ESTAGIO",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "75d9e31c-4cae-46ec-8595-8f47788e43b8",
+        "partitions": [
+          {
+            "name": "dim_estagio",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = f_BASE,",
+                "    #\"Outras Colunas Removidas\" = Table.SelectColumns(Fonte,{\"ESTAGIO\"}),",
+                "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Outras Colunas Removidas\")",
+                "in",
+                "    #\"Duplicatas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_diploma",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "PEGO DIPLOMA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f04381e1-c50a-4c77-ab10-08c91e736582",
+            "sourceColumn": "PEGO DIPLOMA",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "f6323914-8b6c-49f0-9279-11bf84855dc9",
+        "partitions": [
+          {
+            "name": "dim_diploma",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = f_BASE,",
+                "    #\"Outras Colunas Removidas\" = Table.SelectColumns(Fonte,{\"PEGO DIPLOMA\"}),",
+                "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Outras Colunas Removidas\")",
+                "in",
+                "    #\"Duplicatas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "MEDIDAS",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "lineageTag": "777b961b-0cfb-45fb-8805-f5afda95b9b1",
+        "measures": [
+          {
+            "name": "FAT_INADIMPLENTES",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"pt-BR\"}"
+              }
+            ],
+            "expression": [
+              "CALCULATE(SUM(f_BASE[Mensalidade])",
+              "                    ,FILTER(dim_situacao,dim_situacao[Situação] = \"Não Pago\"))"
+            ],
+            "formatString": "\"R$\"\\ #,0;-\"R$\"\\ #,0;\"R$\"\\ #,0",
+            "lineageTag": "032c3b83-b4ee-4e8b-b95c-0aaa6f7f098a"
+          },
+          {
+            "name": "TT MATRICULAS",
+            "expression": [
+              "",
+              "",
+              "    VAR MTL = COUNTA(f_BASE[Matricula])",
+              "",
+              "    RETURN MTL  //RETURN PRA VARIAVEL DAR O VALOR SE N TIVER O VALOR N APARECE NA MEDIDA",
+              "//^^^^ACIMA FEITO POR MEIO DE VARIAVEL ^^^^",
+              "",
+              "//TT MATRICULAS = COUNTA(f_BASE[Matricula])"
+            ],
+            "formatString": "0",
+            "lineageTag": "2816e94a-5b57-47c8-8737-67505a673c76"
+          },
+          {
+            "name": "MEDIA DE IDADE",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDecimal\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "",
+              "    VAR MEDIA_AL = AVERAGE(f_BASE[IDADE])    // EXPRESSÃO QUE SERÁ ATRIBUÍDA PARA A VARIÁVEL",
+              "    RETURN MEDIA_AL",
+              "",
+              ""
+            ],
+            "formatString": "0",
+            "lineageTag": "988fb31b-55f5-407d-ab0f-2847f1df79eb"
+          },
+          {
+            "name": "FAT",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"pt-BR\"}"
+              }
+            ],
+            "expression": [
+              "CALCULATE(SUM(f_BASE[Mensalidade])",
+              "        , FILTER(dim_situacao, dim_situacao[Situação] = \"PAGO\"))"
+            ],
+            "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+            "lineageTag": "35cc29a0-6edb-4ebd-a694-51005ea13d20"
+          },
+          {
+            "name": "% POrC TT",
+            "expression": [
+              "",
+              "",
+              "VAR ValorFiltro = CALCULATE(SUM(f_BASE[Mensalidade]), ALL(f_BASE))",
+              "",
+              "VAR ValorVenda = [FAT] ",
+              "",
+              "RETURN",
+              "DIVIDE(ValorVenda, ValorFiltro)",
+              ""
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "0ddf44be-8648-4f82-bbc0-e504667914d4"
+          },
+          {
+            "name": "% NAO PG",
+            "expression": "FORMAT(DIVIDE([TT NAO PAGO],[TT MATRICULAS]), \"PERCENT\")",
+            "lineageTag": "056c4128-b6ec-41e3-9dcb-2d05274aed53"
+          },
+          {
+            "name": "FAT REAL",
+            "expression": "FORMAT([FAT], \"R$\\ #,0.00\", \"pt-br\")",
+            "lineageTag": "d9e8fbc9-7107-46e1-863d-217d8f0e63ef"
+          },
+          {
+            "name": "TOTAL INADIMPLENTES",
+            "expression": [
+              "CALCULATE(COUNTA(f_BASE[Mensalidade])",
+              "                    ,FILTER(dim_situacao,dim_situacao[Situação] = \"Não Pago\")) + 0"
+            ],
+            "formatString": "0",
+            "lineageTag": "4cf8fdf8-d259-45d2-b5f4-7bfc5b5aa28e"
+          },
+          {
+            "name": "TT PAGO",
+            "expression": [
+              "CALCULATE(COUNTA(f_BASE[Mensalidade])",
+              "            ,FILTER(dim_situacao,dim_situacao[Situação] = \"Pago\"))"
+            ],
+            "formatString": "0",
+            "lineageTag": "6b3d4cb5-cdad-4202-b328-8aa16398868c"
+          },
+          {
+            "name": "% PAGO",
+            "expression": "FORMAT(DIVIDE([TT PAGO],[TT MATRICULAS]) , \"PERCENT\")",
+            "lineageTag": "041f57ff-b920-4439-9453-c5b358337a2d"
+          },
+          {
+            "name": "TTL ALUNOS EM DP",
+            "expression": [
+              "CALCULATE(COUNT(f_BASE[Pegou DP])",
+              "                , FILTER(dim_alunos, dim_alunos[DPS] = \"DP\"))",
+              "        "
+            ],
+            "formatString": "0",
+            "lineageTag": "664d02bf-dde5-4e39-867e-dd5f26252335"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "MEDIDAS",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"Coluna 1\" = _t]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Fonte,{{\"Coluna 1\", type text}}),",
+                "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Tipo Alterado\",{\"Coluna 1\"})",
+                "in",
+                "    #\"Colunas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "MEDIDAS ALUNOS",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "lineageTag": "8b138ed6-6efc-4840-9ca7-c51eecda46f7",
+        "measures": [
+          {
+            "name": "ALUNO",
+            "expression": "SELECTEDVALUE(f_BASE[Alunos], \"NENHUM SELECIONADO\")",
+            "lineageTag": "6c56b34a-242e-4baf-84a1-ea193b645d2a"
+          },
+          {
+            "name": "ENDERECO",
+            "expression": "SELECTEDVALUE(f_BASE[End], \"-\")",
+            "lineageTag": "ded200d0-8f54-4306-94cb-95a80a1c0661"
+          },
+          {
+            "name": "CPF",
+            "expression": "SELECTEDVALUE(f_BASE[CPF], \"-\")",
+            "lineageTag": "68c5bbd1-0252-4390-bea7-57c013b394f3"
+          },
+          {
+            "name": "MENSALIDADE",
+            "expression": [
+              "",
+              "",
+              " VAR Mens= SELECTEDVALUE(f_BASE[Mensalidade], \"-\" )",
+              " VAR txt = \"R$ \"",
+              " RETURN",
+              " CONCATENATE(txt, Mens)",
+              "",
+              ""
+            ],
+            "lineageTag": "fdea2cd1-02ce-4b56-ab38-881743a8b496"
+          },
+          {
+            "name": "TURNO",
+            "expression": [
+              "",
+              "VAR TURNO = SELECTEDVALUE(f_BASE[Turno], \"-\")",
+              "RETURN TURNO"
+            ],
+            "lineageTag": "9bda2627-6a0f-44c0-b592-880c7e221951"
+          },
+          {
+            "name": "SEXO",
+            "expression": [
+              "",
+              "var genero = SELECTEDVALUE(f_BASE[GENERO], \"-\")",
+              "return genero"
+            ],
+            "lineageTag": "c40b5453-6daf-46d5-acda-42159c6dfe02"
+          },
+          {
+            "name": "IDADE",
+            "expression": [
+              "",
+              "",
+              "    \"Idade: \" & SELECTEDVALUE(f_BASE[IDADE], \"-\")"
+            ],
+            "lineageTag": "f482bce8-d179-4b11-8498-5515fff84da6"
+          },
+          {
+            "name": "CURSO",
+            "expression": [
+              "",
+              "",
+              "VAR FACUL = SELECTEDVALUE(f_BASE[Curso], \"-\")",
+              "RETURN \"Curso: \" & FACUL"
+            ],
+            "lineageTag": "f4a3ab1c-e76a-4c14-8de9-071b360e083a"
+          },
+          {
+            "name": "DP",
+            "expression": [
+              "",
+              "",
+              "\"DPS: \"&SELECTEDVALUE(f_BASE[DPS], \"-\")"
+            ],
+            "lineageTag": "8a8c987c-c0c7-42f7-84d5-fa53c5510bf3"
+          },
+          {
+            "name": "CAMPUS",
+            "expression": [
+              "",
+              "",
+              "VAR CAMP = SELECTEDVALUE(f_BASE[Campus], \"-\")",
+              "VAR TEX = \"Campus: \"",
+              "VAR CONC = TEX & CAMP",
+              "RETURN CONC",
+              ""
+            ],
+            "lineageTag": "4fab88ed-61ed-4b0e-8979-c6c981f5ed81"
+          },
+          {
+            "name": "RA",
+            "expression": [
+              "",
+              "",
+              "VAR ra = SELECTEDVALUE(f_BASE[Matricula], \"-\")",
+              "",
+              "VAR tex = \"RA: \"",
+              "RETURN CONCATENATE(tex, ra)"
+            ],
+            "lineageTag": "e6417385-4821-423a-82ea-590ad97717cd"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "MEDIDAS ALUNOS",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"Coluna 1\" = _t]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Fonte,{{\"Coluna 1\", type text}}),",
+                "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Tipo Alterado\",{\"Coluna 1\"})",
+                "in",
+                "    #\"Colunas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_alunos",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Alunos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1a9e723e-03ad-4cf4-b908-1e4dccb98361",
+            "sourceColumn": "Alunos",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Matricula",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c2c62fa6-4952-4793-a994-c5af1893d6bd",
+            "sourceColumn": "Matricula",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DPS",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "62a5dac9-6984-4c54-952e-18cf7ae4ec79",
+            "sourceColumn": "DPS",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "eada9b09-bc1c-4bfe-a347-d33f98e93c42",
+        "partitions": [
+          {
+            "name": "dim_alunos",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = f_BASE,",
+                "    #\"Outras Colunas Removidas\" = Table.SelectColumns(Fonte,{\"Alunos\", \"Matricula\", \"DPS\"}),",
+                "    #\"Duplicatas Removidas\" = Table.Distinct(#\"Outras Colunas Removidas\", {\"Matricula\"})",
+                "in",
+                "    #\"Duplicatas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "MEDIDAS FINANCEIRA",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "lineageTag": "4dd278f8-4206-4f73-b0e8-d2c9e6c1e152",
+        "measures": [
+          {
+            "name": "MINIMO",
+            "expression": "0",
+            "formatString": "0",
+            "lineageTag": "080dde0e-4902-46a6-b1ff-fa69263f8302"
+          },
+          {
+            "name": "LIMITE",
+            "expression": "[TT NAO PAGO] - 10",
+            "formatString": "0",
+            "lineageTag": "d8c6e074-8915-4db6-8af7-f7dba0130b9f"
+          },
+          {
+            "name": "INTERMEDIARIO",
+            "expression": "[TT NAO PAGO] - 30",
+            "formatString": "0",
+            "lineageTag": "f57adabe-156a-4bab-990c-64de63082dc1"
+          },
+          {
+            "name": "TT MATRI LIMITE",
+            "expression": "[TT NAO PAGO] - 5",
+            "formatString": "0",
+            "lineageTag": "edb288d8-6f11-458c-93e4-0b40c7490275"
+          },
+          {
+            "name": "TT NAO PAGO",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "CALCULATE(COUNTA(f_BASE[Mensalidade])",
+              "            ,FILTER(dim_situacao,dim_situacao[Situação] = \"Não Pago\"))",
+              "",
+              ""
+            ],
+            "lineageTag": "358b07c7-8a65-423c-ab66-dc657c669043"
+          },
+          {
+            "name": "ticket medio",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "AVERAGE(f_BASE[Mensalidade])",
+              "              "
+            ],
+            "lineageTag": "35e87e74-a07e-49cf-ab3c-8d5945296bae"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "MEDIDAS FINANCEIRA",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"Coluna 1\" = _t]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Fonte,{{\"Coluna 1\", type text}}),",
+                "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Tipo Alterado\",{\"Coluna 1\"})",
+                "in",
+                "    #\"Colunas Removidas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
