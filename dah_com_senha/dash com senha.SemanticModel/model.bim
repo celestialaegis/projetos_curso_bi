@@ -1,0 +1,429 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"tb_base\",\"tb_senha\",\"MEDIDAS\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.139.2054.0 (24.12)+334ca1c95b576cc53924655643b0d36f21caac55"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "pt-BR",
+    "cultures": [
+      {
+        "name": "pt-BR",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "AutoDetected_e2b2c5ba-e5f9-4e92-9bbf-0f918a4f44e8",
+        "fromColumn": "senha",
+        "fromTable": "tb_base",
+        "toColumn": "SENHA",
+        "toTable": "tb_senha"
+      }
+    ],
+    "sourceQueryCulture": "pt-BR",
+    "tables": [
+      {
+        "name": "tb_base",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "senha",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "05cd8181-a96c-441d-bcc3-99e497c9cbcc",
+            "sourceColumn": "senha",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e50968d9-7cf4-4fb6-8879-1eaa5035925a",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "produtos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3b374dcb-2800-4a99-8a0c-3c0ca39d38d5",
+            "sourceColumn": "produtos",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "GERENTE DA CAMPANHA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c23f2160-0433-41c7-bd3b-6dd468b1f3e3",
+            "sourceColumn": "GERENTE DA CAMPANHA",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "valor do anuncio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "5d9fe30f-51b9-4964-851b-65a36ce225b0",
+            "sourceColumn": "valor do anuncio",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Qtde execussao",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e26326ed-12ad-43d5-97a3-e2338a1f91f2",
+            "sourceColumn": "Qtde execussao",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "TOTAL CONVERTIDO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"pt-BR\"}"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+            "lineageTag": "6706c3e9-ebfa-4382-9003-fac20b0aced2",
+            "sourceColumn": "TOTAL CONVERTIDO",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Valor Gasto por Anuncio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"pt-BR\"}"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+            "lineageTag": "e127f8ad-979b-47ef-bbc6-50a8ffe268dc",
+            "sourceColumn": "Valor Gasto por Anuncio",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Percentual de Crescimento",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "6f4348bb-77d7-477c-b007-9bfe276bc7dc",
+            "sourceColumn": "Percentual de Crescimento",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "396ed76f-2dc9-4883-9d46-2edc53463955",
+        "partitions": [
+          {
+            "name": "tb_base",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Excel.Workbook(File.Contents(\"C:\\Users\\Anderson\\OneDrive\\Área de Trabalho\\rapha\\materiais_bi\\molulo 5\\TB_BASES.xlsx\"), null, true),",
+                "    tb_base_Table = Fonte{[Item=\"tb_base\",Kind=\"Table\"]}[Data],",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(tb_base_Table,{{\"senha\", Int64.Type}, {\"id\", Int64.Type}, {\"produtos\", type text}, {\"GERENTE DA CAMPANHA\", type text}, {\"valor do anuncio\", type number}, {\"Qtde execussao\", Int64.Type}, {\"TOTAL CONVERTIDO\", Int64.Type}}),",
+                "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Tipo Alterado\",{{\"senha\", type text}, {\"id\", type text}, {\"TOTAL CONVERTIDO\", type number}}),",
+                "    #\"Personalização Adicionada\" = Table.AddColumn(#\"Tipo Alterado1\", \"Valor Gasto por Anuncio\", each [valor do anuncio] * [Qtde execussao]),",
+                "    #\"Tipo Alterado2\" = Table.TransformColumnTypes(#\"Personalização Adicionada\",{{\"Valor Gasto por Anuncio\", type number}}),",
+                "    #\"Colunas Reordenadas\" = Table.ReorderColumns(#\"Tipo Alterado2\",{\"senha\", \"id\", \"produtos\", \"GERENTE DA CAMPANHA\", \"valor do anuncio\", \"Qtde execussao\", \"Valor Gasto por Anuncio\", \"TOTAL CONVERTIDO\"}),",
+                "    #\"Personalização Adicionada1\" = Table.AddColumn(#\"Colunas Reordenadas\", \"Percentual de Crescimento\", each ([TOTAL CONVERTIDO] - [Valor Gasto por Anuncio])",
+                "/[Valor Gasto por Anuncio]),",
+                "    #\"Tipo Alterado3\" = Table.TransformColumnTypes(#\"Personalização Adicionada1\",{{\"Percentual de Crescimento\", Percentage.Type}})",
+                "in",
+                "    #\"Tipo Alterado3\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "tb_senha",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "SENHA",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a8f7c71d-c857-40fb-b375-06b320d6162c",
+            "sourceColumn": "SENHA",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "LOGIN",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d21fb2b6-6c4d-48f1-8b50-54df610a181e",
+            "sourceColumn": "LOGIN",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "FOTO",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f5fb83ba-8f42-41be-8479-088942612d68",
+            "sourceColumn": "FOTO",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "17a59085-a08e-4fa9-9382-f9309a3dc981",
+        "partitions": [
+          {
+            "name": "tb_senha",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Excel.Workbook(File.Contents(\"C:\\Users\\Anderson\\OneDrive\\Área de Trabalho\\rapha\\materiais_bi\\molulo 5\\SENHA.xlsx\"), null, true),",
+                "    tb_senha_Table = Fonte{[Item=\"tb_senha\",Kind=\"Table\"]}[Data],",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(tb_senha_Table,{{\"SENHA\", Int64.Type}, {\"LOGIN\", type text}, {\"FOTO\", type text}}),",
+                "    #\"Tipo Alterado1\" = Table.TransformColumnTypes(#\"Tipo Alterado\",{{\"SENHA\", type text}})",
+                "in",
+                "    #\"Tipo Alterado1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "MEDIDAS",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Coluna 1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "371fb53a-f211-48c7-bb53-7a15d06134ed",
+            "sourceColumn": "Coluna 1",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "616184d2-bfda-4be9-b5d8-7389e1c5e009",
+        "measures": [
+          {
+            "name": "TTL EXECUCAO",
+            "lineageTag": "ccfd2ea0-6ebd-481d-923c-ed667c6c8aeb"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "MEDIDAS",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"Coluna 1\" = _t]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(Fonte,{{\"Coluna 1\", type text}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Parâmetro",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "9347304f71aa4ad1bcf05c4a840c4d51"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Parâmetro",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "extendedProperties": [
+              {
+                "name": "ParameterMetadata",
+                "type": "json",
+                "value": {
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "3d1a6e88-c1df-4a88-b422-16fd262812c1",
+            "sourceColumn": "[Value]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "27e9b7c9-9725-4dc6-a35b-dff11cc9aa23",
+        "measures": [
+          {
+            "name": "Valor Parâmetro",
+            "expression": "SELECTEDVALUE('Parâmetro'[Parâmetro])",
+            "formatString": "0",
+            "lineageTag": "3903fbe5-a832-4ed2-bfb1-893a29eb8f76"
+          },
+          {
+            "name": "CHECK",
+            "expression": [
+              "",
+              "",
+              "VAR CHECK2 = ",
+              "IF(",
+              "    SELECTEDVALUE(tb_senha[LOGIN]) = \"Vanessa Silva\"",
+              "    && 'Parâmetro'[Valor Parâmetro] = 566",
+              "    ,\"RELATORIO GOOGLE\"",
+              "",
+              ",IF(",
+              "    SELECTEDVALUE(tb_senha[LOGIN]) = \"Magno Marques\"",
+              "    && 'Parâmetro'[Valor Parâmetro] = 577",
+              "    ,\"RELATORIO INSTA\"",
+              "",
+              ",IF(",
+              "    SELECTEDVALUE(tb_senha[LOGIN]) = \"Geral\"",
+              "    && 'Parâmetro'[Valor Parâmetro] = 599",
+              "    ,\"RELATORIO GERAL\"",
+              "    ,\"SENHA INCORRETA\")))",
+              "",
+              "RETURN CHECK2",
+              ""
+            ],
+            "lineageTag": "92192346-6b29-4744-9fe6-4f989a68622f"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Parâmetro",
+            "mode": "import",
+            "source": {
+              "expression": "GENERATESERIES(0, 1000, 1)",
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
